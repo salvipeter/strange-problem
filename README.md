@@ -8,6 +8,8 @@ The starting B-spline surface is contained in `surface.bss`. The first control r
 associated with `u=0`, is retained, and the remaining control points are used to approximate
 the given points. Even though the input is approximately symmetric, the output is not.
 
+![image](problem.png?raw=true "The fitted B-spline is not symmetric")
+
 (The program generates two files: `points.obj`, which is just the input points, and `result.obj`,
  that contains the control points of the fitted B-spline surface.)
  
